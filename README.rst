@@ -1,6 +1,6 @@
 RACES_SvxLinkWrapper - wrapper for SvxLink
 ====================================
-By RACES 4Z7GAI <tamilnaduhams at gmail dot com>
+By RACES (Radio Community for Emergency Support)<tamilnaduhams at gmail dot com>
 
 Features
 --------
