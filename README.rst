@@ -1,6 +1,6 @@
-SvxLinkWrapper - wrapper for SvxLink
+RACES_SvxLinkWrapper - wrapper for SvxLink
 ====================================
-By Guy Sheffer 4Z7GAI <guysoft at gmail dot com>
+By RACES 4Z7GAI <tamilnaduhams at gmail dot com>
 
 Features
 --------
@@ -20,7 +20,7 @@ Install all requirements except svxlink on Ubuntu / Debian
 
 ::
     
-    apt-get install python-sqlite3
+    apt-get install python-sqlite
 
 
 
