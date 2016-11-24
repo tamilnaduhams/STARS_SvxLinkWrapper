@@ -35,8 +35,12 @@ class dataControl:
                 name =names[cs]
             
             # Insert a row of data
-            sql = "insert into qso values (?,?,?,?,?,?)"
-            variables = (cs,None,ip,buffer(name),state,str(time.time()))
+            if state == 'enter':
+                sql = "insert into elqsolog values (?,?,?,?,?)"
+                variables = (None,cs,ip,str(time.time()),'')
+            elif state == 'exit':
+                sql = "update elqsolog set otime=? where callsign=? and otime=''"
+                variables = (str(time.time()),cs)
             
             c.execute(sql,variables)    
             # Save (commit) the changes
