@@ -27,9 +27,11 @@ How to configure and run SvxLinkWrapper
    change the following variables as needed in config.ini
    
    #SVXLink path
+   
    SVXLINK_CMD=/usr/local/bin/svxlink
    
    #Your Echolink Callsign and Node
+   
    STATIONS={"VU2POC-R": "764117"}
 
 
@@ -40,7 +42,7 @@ How to configure SQlite
    
    sudo nano /home/pi/SVXLinkWrapper/config.ini
 
-DATABASE_PATH=./EcholinkQsoLog.sqlite
+   DATABASE_PATH=./EcholinkQsoLog.sqlite
    
 2. Make sure the folder that EcholinkQsoLog.sqlite has read/write permissions, as well as the file
 3. If you want to view qsos log from a browser you can create virtual directory to `www` in apache2)
