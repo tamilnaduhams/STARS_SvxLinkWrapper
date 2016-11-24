@@ -19,6 +19,7 @@ How to Install all requirements except svxlink
 -----------------------------------------------
 ::
     sudo apt-get install python-sqlite
+    
     sudo apt-get install apache2
 
 How to configure and run SvxLinkWrapper
